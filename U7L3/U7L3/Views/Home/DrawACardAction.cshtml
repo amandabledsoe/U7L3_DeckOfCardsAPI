@@ -1,0 +1,12 @@
+﻿@model U7L3.Models.DrawACard
+
+@{
+    foreach (var item in @Model.cards)
+    {
+    <table>
+        <tbody>
+        <td>@item.value of @item.suit</td>
+        </tbody>
+    </table>
+    }
+}

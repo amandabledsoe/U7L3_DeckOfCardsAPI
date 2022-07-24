@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Grand Circus Master Repository 2022\CODE\UNIT 7 - MVC and Entity Framework\LABS\Lab 3 - Deck of Cards API\U7L3_DeckOfCardsAPI\U7L3\U7L3
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Grand Circus Master Repository 2022/CODE/UNIT 7 - MVC and Entity Framework/LABS/Lab 3 - Deck of Cards API/U7L3_DeckOfCardsAPI/U7L3/U7L3/Views/Home/DrawACardAction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEcmF3QUNhcmRBY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Grand Circus Master Repository 2022/CODE/UNIT 7 - MVC and Entity Framework/LABS/Lab 3 - Deck of Cards API/U7L3_DeckOfCardsAPI/U7L3/U7L3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

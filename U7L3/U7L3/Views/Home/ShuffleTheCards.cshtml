@@ -14,23 +14,27 @@
         <td>
             @{if (@Model.success == true)
             {
-                <p>Yes</p>
+                        <p>Yes</p>
             }
             else
             {
-                <p>No</p>
+                        <p>No</p>
             }}
         </td>
         <td>
             @{if (@Model.shuffled == true)
             {
-                <p>Yes</p>
+                        <p>Yes</p>
             }
             else
             {
-                <p>No</p>
+                        <p>No</p>
             }}
         </td>
         <td>@Model.remaining</td>
     </tbody>
 </table>
+</br>
+@{
+    <h3><a class="btn-outline-primary" href="DrawACardAction?deck_id=@Model.deck_id">DEAL 5 CARDS</a></h3>
+}
