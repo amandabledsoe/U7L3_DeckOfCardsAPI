@@ -1,0 +1,36 @@
+﻿@model U7L3.Models.ShuffleTheCards
+
+<p>These are the results of API Call:</p>
+
+<table class="table-bordered text-center" width="100%">
+    <thead>
+        <td>Deck ID</td>
+        <td>Deck Creation Successful?</td>
+        <td>Shuffled?</td>
+        <td># Cards Reamining</td>
+    </thead>
+    <tbody>
+        <td>@Model.deck_id</td>
+        <td>
+            @{if (@Model.success == true)
+            {
+                <p>Yes</p>
+            }
+            else
+            {
+                <p>No</p>
+            }}
+        </td>
+        <td>
+            @{if (@Model.shuffled == true)
+            {
+                <p>Yes</p>
+            }
+            else
+            {
+                <p>No</p>
+            }}
+        </td>
+        <td>@Model.remaining</td>
+    </tbody>
+</table>
