@@ -1,12 +1,20 @@
 ﻿@model U7L3.Models.DrawACard
 
 @{
+    int counter = 1;
+}
+<table class="table-bordered text-lg-center" width="100%">
+@{
     foreach (var item in @Model.cards)
     {
-    <table>
         <tbody>
-        <td>@item.value of @item.suit</td>
+            <tr>
+                <td>CARD @counter:</td>
+                <td>@item.value of @item.suit</td>
+                <td><img src="@item.image"/></td>
+            </tr>
         </tbody>
-    </table>
+        counter++;
     }
 }
+    </table>
